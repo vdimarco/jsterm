@@ -3,16 +3,21 @@
    "type": "dir",
    "contents": [
       {
-         "name": "file1",
+         "name": "Vaughn",
          "type": "text",
-         "contents": "Hello World!",
-         "description": "FOOO"
+         "contents": "Hi there. For witty banter, I can be reached at @vdimarco or vaughn.dimarco@gmail.com",
+         "description": "International Man of Mystery"
       },
       {
-         "name": "pic.jpg",
+         "name": "me.jpg",
          "type": "img",
-         "contents": "/images/penguin.png",
-         "caption": "What a beautiful penguin."
+         "contents": "/images/me.jpeg",
+         "caption": "Ahhhhhhhhhhhhhhhhhhhh!!!!!!!!!!!!!!!1"
+      },
+      {
+         "name": "README",
+         "type": "text",
+         "contents": "/README.md"
       },
       {
          "name": "dir1",
@@ -24,14 +29,14 @@
                "contents": "foo"
             },
             {
-               "name": "foo",
+               "name": "words",
                "type": "dir",
                "contents": [
                   {
-                     "name": "file3",
+                     "name": "blog",
                      "type": "exec",
-                     "contents": "http://google.com",
-                     "description": "blahblah"
+                     "contents": "http://blog.vaughndimarco.com",
+                     "description": "blah blah"
                   }
                ]
             }
