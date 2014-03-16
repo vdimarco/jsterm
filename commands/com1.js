@@ -29,7 +29,7 @@ COMMANDS.cat =  function(argv, cb) {
          this._terminal.write('<br>');
    }, this);
    cb();
-}
+};
 
 COMMANDS.cd = function(argv, cb) {
    var filename = this._terminal.parseArgs(argv).filenames[0],
@@ -45,7 +45,7 @@ COMMANDS.cd = function(argv, cb) {
    else
       this._terminal.cwd = entry;
    cb();
-}
+};
 
 COMMANDS.ls = function(argv, cb) {
    var result = this._terminal.parseArgs(argv),
@@ -86,7 +86,7 @@ COMMANDS.ls = function(argv, cb) {
       writeEntry(entry, filename);
    }
    cb();
-}
+};
 
 COMMANDS.gimp = function(argv, cb) {
    var filename = this._terminal.parseArgs(argv).filenames[0],
@@ -112,12 +112,12 @@ COMMANDS.gimp = function(argv, cb) {
          this._terminal.write('<br/>' + entry.caption);
    }
    cb();
-}
+};
 
 COMMANDS.clear = function(argv, cb) {
    this._terminal.div.innerHTML = '';
    cb();
-}
+};
 
 COMMANDS.sudo = function(argv, cb) {
    var count = 0;
@@ -133,7 +133,7 @@ COMMANDS.sudo = function(argv, cb) {
    }.bind(this._terminal);
    this._terminal.write('[sudo] password for ' + this._terminal.config.username + ': ');
    this._terminal.scroll();
-}
+};
 
 COMMANDS.login = function(argv, cb) {
    this._terminal.returnHandler = function() {
@@ -144,12 +144,12 @@ COMMANDS.login = function(argv, cb) {
          this.config.username = username;
       this.write('<br>Password: ');
       this.scroll();
-      this.returnHandler = function() { cb(); }
+      this.returnHandler = function() { cb(); };
    }.bind(this._terminal);
    this._terminal.write('Username: ');
    this._terminal.newStdout();
    this._terminal.scroll();
-}
+};
 
 COMMANDS.tree = function(argv, cb) {
    var term = this._terminal,
@@ -170,29 +170,32 @@ COMMANDS.tree = function(argv, cb) {
          if (entry.type === 'dir')
             writeTree(entry, level + 1);
       });
-   };
+   }
    home = this._terminal.getEntry('~');
    this._terminal.writeLink(home, '~');
    this._terminal.write('<br>');
    writeTree(home, 0);
    cb();
-}
+};
 
 COMMANDS.help = function(argv, cb) {
    this._terminal.write(
-       'You can navigate either by clicking on anything that ' +
-       '<a href="javascript:void(0)">underlines</a> when you put your mouse ' +
-       'over it, or by typing commands in the terminal. Type the name of a ' +
-       '<span class="exec">link</span> to view it. Use "cd" to change into a ' +
-       '<span class="dir">directory</span>, or use "ls" to list the contents ' +
-       'of that directory. The contents of a <span class="text">file</span> ' +
-       'can be viewed using "cat". <span class="img">Images</span> are ' +
-       'displayed using "gimp".<br><br>If there is a command you want to get ' +
-       'out of, press Ctrl+C or Ctrl+D.<br><br>');
+       'Navigate this website by: <br>' +
+       '  1. Clicking anything that has <a href="javascript:void(0)">underlines</a>. <br>' +
+       '  2. Typing commands in the terminal. <br>' +
+       '<br>' +
+       'Type the name of a <span class="exec">link</span> to view it. <br>' +
+       'Use "cd [..]" to move into a <span class="dir">directory</span>. <br>' +
+       'Use "ls" to list the contents of that <span class="dir">directory</span>. <br>' +
+       'Use "cat <file_name.txt>" to see the contents of a <span class="text">file</span>. <br>' +
+       'Use "gimp <img_name.jpg>" to display an <span class="img">image</span>. <br>' +
+       '<br>' +
+       'You can use tab for auto-completion. <br>' +
+       'If you get stuck, press Ctrl+C or Ctrl+D.<br><br>');
    this._terminal.write('Commands are:<br>');
    for (var c in this._terminal.commands) {
       if (this._terminal.commands.hasOwnProperty(c) && !c.startswith('_'))
          this._terminal.write(c + '  ');
    }
    cb();
-}
+};

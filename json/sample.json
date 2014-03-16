@@ -3,44 +3,100 @@
    "type": "dir",
    "contents": [
       {
-         "name": "Vaughn",
+         "name": "WELCOME",
          "type": "text",
-         "contents": "Hi there. For witty banter, I can be reached at @vdimarco or vaughn.dimarco@gmail.com",
-         "description": "International Man of Mystery"
+         "contents": "Hi there, I'm Vaughn. Welcome to my website. <br><br>I am the founder of VONalytics.com <br>We specialize in data application development. <br>You can reach me at @vdimarco on twitter <br>or vaughn@VONalytics.com <br><br>If you get stuck, type 'help' <br>"
       },
       {
-         "name": "me.jpg",
-         "type": "img",
-         "contents": "/images/me.jpeg",
-         "caption": "Ahhhhhhhhhhhhhhhhhhhh!!!!!!!!!!!!!!!1"
+                     "name": "source code",
+                     "type": "exec",
+                     "contents": "https://github.com/clarkduvall/jsterm",
+                     "description": "The awesome github repo for this site"
       },
       {
-         "name": "README",
-         "type": "text",
-         "contents": "/README.md"
-      },
-      {
-         "name": "dir1",
+         "name": "projects",
          "type": "dir",
          "contents": [
             {
-               "name": "file2",
-               "type": "text",
-               "contents": "foo"
+               "name": "deeply connected",
+               "type": "exec",
+               "contents": "https://github.com/vdimarco/open-data-linker",
+               "description": "linked data & semantic web annotation injector."
             },
             {
-               "name": "words",
-               "type": "dir",
-               "contents": [
-                  {
-                     "name": "blog",
-                     "type": "exec",
-                     "contents": "http://blog.vaughndimarco.com",
-                     "description": "blah blah"
-                  }
-               ]
+               "name": "mtlrusergroup.com",
+               "type": "exec",
+               "contents": "http://meetup.com/Montreal-R-User-Group/",
+               "description": "the home of the Montreal R User Group."
+            },
+            {
+               "name": "shamelessly.co",
+               "type": "exec",
+               "contents": "http://shamelessly.co",
+               "description": "get fast customer support using social media."
+            },
+            {
+               "name": "github.com/vdimarco",
+               "type": "exec",
+               "contents": "https://github.com/vdimarco",
+               "description": "the archives."
+            }
+         ]
+      },
+      {
+         "name": "bookmarks",
+         "type": "dir",
+         "contents": [
+            {
+               "name": "hn",
+               "type": "exec",
+               "contents": "http://news.ycombinator.com",
+               "description": "where I spend far too much time"
+            }
+         ]
+      },
+      {
+         "name": "images",
+         "type": "dir",
+         "contents": [
+            {
+               "name": "fake.jpg",
+               "type": "img",
+               "contents": "/images/fake.jpg",
+               "caption": ""
+            },
+            {
+               "name": "real.jpg",
+               "type": "img",
+               "contents": "/images/real.jpg",
+               "caption": ""
+            }
+         ]
+      },
+      {
+         "name": "contact",
+         "type": "dir",
+         "contents": [
+            {
+               "name": "twitter",
+               "type": "exec",
+               "contents": "http://twitter.com/vdimarco",
+               "description": ""
+            },
+            {
+               "name": "linkedin",
+               "type": "exec",
+               "contents": "http://linkedin.com/in/vaughndimarco",
+               "description": ""
+            },
+                        {
+               "name": "email",
+               "type": "exec",
+               "contents": "mailto:vaughn@VONalytics.com",
+               "description": ""
             }
          ]
       }
+
    ]
 }

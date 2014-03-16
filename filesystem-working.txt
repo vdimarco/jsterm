@@ -1,0 +1,27 @@
+flow
+  help
+    
+  cd projects | ls -l
+    deeply-connected - adadasdasda
+    github.com/vdimarco - asdasdsad
+    mtlrusergroup.com - asdasdas
+    shamelessly.co - asdasdasd
+  cd ~
+  tree
+filesystem
+  VONalytics
+    value proposition
+    contact
+    ???
+  active projects
+    deeply-connected - linked data & semantic web annotation injector.
+    shamelessly.co - social media customer service tool.
+    mtlrusergroup.com - the home of the montreal R user group.
+    github.com/vdimarco - the rabbit hole.
+  images
+    fake.jpg
+    real.jpg
+  contact
+    twitter
+    linkedin
+    email

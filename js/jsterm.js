@@ -475,13 +475,11 @@
       term.enqueue('login')
           .enqueue('vaughn')
           .enqueue('******')
-          .enqueue('cat README')
+          .enqueue('cat WELCOME')
           .enqueue('help')
+          .enqueue('cd projects')
           .enqueue('ls -l')
-          .enqueue('cd dir1/foo')
-          .enqueue('ls')
-          .enqueue('cd ../..')
-          .enqueue('ls dir1/foo')
+          .enqueue('cd ~')
           .enqueue('tree')
           .begin();
    });
