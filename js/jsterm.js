@@ -477,9 +477,7 @@
           .enqueue('******')
           .enqueue('cat WELCOME')
           .enqueue('help')
-          .enqueue('cd projects')
-          .enqueue('ls -l')
-          .enqueue('cd ~')
+          .enqueue('ls -l ~/projects')
           .enqueue('tree')
           .begin();
    });

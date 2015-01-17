@@ -4,8 +4,8 @@
    "contents": [
       {
          "name": "WELCOME",
-         "type": "text",
-         "contents": "Hi there, I'm Vaughn. Welcome to my website. <br><br>I am the founder of VONalytics.com <br>We specialize in data application development. <br>You can reach me at @vdimarco on twitter <br>or vaughn@VONalytics.com <br><br>If you get stuck, type 'help' <br>"
+	 "type": "text",
+	 "contents": "Hi there, welcome to my personal website. <br><br>I am the founder of VONalytics, a small data consultancy.<br>We specialize in all things data: analysis, integration & statistical modeling.<br>We mostly do business intelligence, machine learning and predictive analytics projects. <br>I mostly use Python, R and Javascript. <br>You can reach me at <a href=mailto:vaughn@VONalytics.com>vaughn@VONalytics.com</a>, always happy to chat.<br><br>If you get stuck browsing this website, type 'help' <br>"
       },
       {
                      "name": "source code",
@@ -24,16 +24,16 @@
                "description": "linked data & semantic web annotation injector."
             },
             {
-               "name": "mtlrusergroup.com",
+               "name": "MontrealRUserGroup.com",
                "type": "exec",
                "contents": "http://meetup.com/Montreal-R-User-Group/",
                "description": "the home of the Montreal R User Group."
             },
             {
-               "name": "shamelessly.co",
+               "name": "MTL Data",
                "type": "exec",
-               "contents": "http://shamelessly.co",
-               "description": "get fast customer support using social media."
+               "contents": "http://mtldata.com",
+               "description": "the montreal data community."
             },
             {
                "name": "github.com/vdimarco",
@@ -69,7 +69,7 @@
                "name": "real.jpg",
                "type": "img",
                "contents": "/images/real.jpg",
-               "caption": ""
+               "caption": "Reality is but an illusion!"
             }
          ]
       },
