@@ -5,13 +5,13 @@
       {
          "name": "WELCOME",
 	 "type": "text",
-	 "contents": "Hi there, welcome to my personal website. <br><br>I am the founder of VONalytics, a small data consultancy.<br>We specialize in all things data: analysis, integration & statistical modeling.<br>We mostly do business intelligence, machine learning and predictive analytics projects. <br>I mostly use Python, R and Javascript. <br>You can reach me at <a href=mailto:vaughn@VONalytics.com>vaughn@VONalytics.com</a>, always happy to chat.<br><br>If you get stuck browsing this website, type 'help' <br>"
+	 "contents": "Hi there, welcome to my website. <br><br>I am the founder of VONALYTICS, a data science consultancy.<br>We specialize in all things data science & engineering.<br>We mostly do machine learning projects. <br>You can reach me at <a href=mailto:v@ug.hn>v@ug.hn</a>, always happy to chat.<br><br>If you get stuck browsing this website, type 'help' <br>"
       },
       {
                      "name": "source code",
                      "type": "exec",
                      "contents": "https://github.com/clarkduvall/jsterm",
-                     "description": "The awesome github repo for this site"
+                     "description": "The source code for this site can be found here."
       },
       {
          "name": "projects",
@@ -24,16 +24,16 @@
                "description": "linked data & semantic web annotation injector."
             },
             {
-               "name": "MontrealRUserGroup.com",
+               "name": "MontrealRUserGroup",
                "type": "exec",
                "contents": "http://meetup.com/Montreal-R-User-Group/",
                "description": "the home of the Montreal R User Group."
             },
             {
-               "name": "MTL Data",
+               "name": "MTL DATA",
                "type": "exec",
                "contents": "http://mtldata.com",
-               "description": "the montreal data community."
+               "description": "Home of the Montreal Data community."
             },
             {
                "name": "github.com/vdimarco",
@@ -51,7 +51,7 @@
                "name": "hn",
                "type": "exec",
                "contents": "http://news.ycombinator.com",
-               "description": "where I spend far too much time"
+               "description": "thoughtful discourse"
             }
          ]
       },
@@ -59,12 +59,6 @@
          "name": "images",
          "type": "dir",
          "contents": [
-            {
-               "name": "fake.jpg",
-               "type": "img",
-               "contents": "/images/fake.jpg",
-               "caption": ""
-            },
             {
                "name": "real.jpg",
                "type": "img",
@@ -92,7 +86,7 @@
                         {
                "name": "email",
                "type": "exec",
-               "contents": "mailto:vaughn@VONalytics.com",
+               "contents": "mailto:v@ug.hn",
                "description": ""
             }
          ]

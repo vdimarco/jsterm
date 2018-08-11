@@ -3,7 +3,7 @@ flow
     Hi there, I'm Vaughn. Welcome to my website.
     I am the founder of VONalytics.com
     We specialize in data app development.
-    You can reach me at vaughn@VONalytics.com
+    You can reach me at v@ug.hn
     or @vdimarco on twitter
 
     You can find the awesome source code for this site on GitHub (https://github.com/clarkduvall/jsterm)
