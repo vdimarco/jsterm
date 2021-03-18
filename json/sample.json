@@ -38,7 +38,7 @@
                "name": "DEEPLY CONNECTED",
                "type": "exec",
                "contents": "https://github.com/vdimarco/open-data-linker",
-               "description": "hypothes.is like experiment involving annotations, linked data & the semantic web"
+               "description": "experiment involving linked data & semantic web annotations"
             }
          ]
       },
