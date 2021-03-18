@@ -186,9 +186,8 @@ COMMANDS.help = function(argv, cb) {
        'Use "cat <file_name.txt>" to see the contents of a <span class="text">file</span>. <br>' +
        'Use "gimp <img_name.jpg>" to display an <span class="img">image</span>. <br>' +
        '<br>' +
-       'You can use tab for auto-completion. <br>' +
-       'If you get stuck, press Ctrl+C or Ctrl+D.<br><br>');
-   this._terminal.write('Commands are:<br>');
+       'You can use tab for auto-completion. <br>');
+   this._terminal.write('Commands are:');
    for (var c in this._terminal.commands) {
       if (this._terminal.commands.hasOwnProperty(c) && !c.startswith('_'))
          this._terminal.write(c + '  ');
