@@ -18,21 +18,27 @@
          "type": "dir",
          "contents": [
             {
+               "name": "COINDERA",
+               "type": "exec",
+               "contents": "http://coindera.com",
+               "description": "Prediction Markets Gone Wild"
+            },
+            {
                "name": "MTL DATA",
                "type": "exec",
                "contents": "http://mtldata.com",
-               "description": "Started this with a few friends. It has become the largest community of data practioners in Canada."
+               "description": "Started with friends. Became the largest community of data practioners in Canada."
             },           {
                "name": "Montreal R User Group",
                "type": "exec",
                "contents": "http://meetup.com/Montreal-R-User-Group/",
-               "description": "Home of the Montreal R User Group."
+               "description": " "
             },
             {
                "name": "Deeply Connected",
                "type": "exec",
                "contents": "https://github.com/vdimarco/open-data-linker",
-               "description": "An experimental project involving linked data & semantic web annotations."
+               "description": "An experiment involving linked data & semantic web annotations."
             },
             {
                "name": "Montreal AI Facebook Group",
