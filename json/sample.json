@@ -5,7 +5,7 @@
       {
          "name": "WELCOME",
 	 "type": "text",
-	 "contents": "Hi there, welcome to my website. <br><br>In 2014 I incorporated VONALYTICS.<br>Since then I've explored the wonderful world of Tech, Data & AI from many angles.<br>You can reach me by email here: <a href=mailto:v@ug.hn>v@ug.hn</a><br><br>If you get stuck browsing this website, type 'help' <br>"
+	 "contents": "Hi there, welcome to my website. You can reach me by email here: <a href=mailto:v@ug.hn>v@ug.hn</a><br><br>In 2014 I started VONALYTICS INC. Since then I've explored the wonderful world of Tech, Data & AI from many angles.<br><br>If you get stuck browsing this website, type 'help' <br>"
       },
       {
                      "name": "source code",
