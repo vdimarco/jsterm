@@ -5,7 +5,7 @@
       {
          "name": "WELCOME",
 	 "type": "text",
-	 "contents": "Hi there, welcome to my website. You can reach me by email here: <a href=mailto:v@ug.hn>v@ug.hn</a><br><br>In 2014 I incorporated as VONALYTICS. Since then I've explored the fascinating nexus of TECH & DATA from many interesting angles.<br><br>If you get stuck browsing this website, type 'help' <br>"
+	 "contents": "Hi there, welcome to my website. You can reach me by email here: <a href=mailto:v@ug.hn>v@ug.hn</a><br><br>For the past two decades I've been obsessed with the universe of TECHNOLOGY & STARTUPS. In 2014 I incorporated as VONALYTICS and continued to explore this fascinating nexus with a focus on DATA.<br><br>If you get stuck browsing this website, type 'help' <br>"
       },
       {
                      "name": "source code",
@@ -46,6 +46,18 @@
          "name": "bookmarks",
          "type": "dir",
          "contents": [
+            {
+               "name": "INVEST-AI",
+               "type": "exec",
+               "contents": "http://invest-ai.com",
+               "description": ""
+            },
+            {
+               "name": "NextAI",
+               "type": "exec",
+               "contents": "https://www.nextcanada.com/next-ai/",
+               "description": ""
+            },
             {
                "name": "hn",
                "type": "exec",
