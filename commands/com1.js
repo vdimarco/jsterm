@@ -181,11 +181,11 @@ COMMANDS.tree = function(argv, cb) {
 COMMANDS.help = function(argv, cb) {
    this._terminal.write(
        'Navigate this website by typing basic bash commands, or clicking <a href="javascript:void(0)">underlines</a>. <br>' +
-       'Use "cd [..]" to move into a <span class="dir">directory</span>. <br>' +
-       'Use "ls" to list the contents of that <span class="dir">directory</span>. <br>' +
-       'Use "cat <file_name.txt>" to see the contents of a <span class="text">file</span>. <br>' +
-       'Use "gimp <img_name.jpg>" to display an <span class="img">image</span>. <br>' +
-       'You can use tab for auto-completion. <br>');
+       '- Use "cd [..]" to move into a <span class="dir">directory</span>. <br>' +
+       '- Use "ls" to list the contents of that <span class="dir">directory</span>. <br>' +
+       '- Use "cat <file_name.txt>" to see the contents of a <span class="text">file</span>. <br>' +
+       '- Use "gimp <img_name.jpg>" to display an <span class="img">image</span>. <br>' +
+       'Hit tab for auto-completion. <br>');
    this._terminal.write('Commands are: ');
    for (var c in this._terminal.commands) {
       if (this._terminal.commands.hasOwnProperty(c) && !c.startswith('_'))
