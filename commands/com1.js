@@ -180,11 +180,7 @@ COMMANDS.tree = function(argv, cb) {
 
 COMMANDS.help = function(argv, cb) {
    this._terminal.write(
-       'Navigate this website by: <br>' +
-       '  1. Clicking anything that has <a href="javascript:void(0)">underlines</a>. <br>' +
-       '  2. Typing commands in the terminal. <br>' +
-       '<br>' +
-       'Type the name of a <span class="exec">link</span> to view it. <br>' +
+       'Navigate this website by typing basic bash commands, or clicking <a href="javascript:void(0)">underlines</a>. <br>' +
        'Use "cd [..]" to move into a <span class="dir">directory</span>. <br>' +
        'Use "ls" to list the contents of that <span class="dir">directory</span>. <br>' +
        'Use "cat <file_name.txt>" to see the contents of a <span class="text">file</span>. <br>' +
