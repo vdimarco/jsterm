@@ -185,7 +185,6 @@ COMMANDS.help = function(argv, cb) {
        'Use "ls" to list the contents of that <span class="dir">directory</span>. <br>' +
        'Use "cat <file_name.txt>" to see the contents of a <span class="text">file</span>. <br>' +
        'Use "gimp <img_name.jpg>" to display an <span class="img">image</span>. <br>' +
-       '<br>' +
        'You can use tab for auto-completion. <br>');
    this._terminal.write('Commands are: ');
    for (var c in this._terminal.commands) {
