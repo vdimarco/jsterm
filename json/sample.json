@@ -5,7 +5,7 @@
       {
          "name": "WELCOME",
 	 "type": "text",
-	 "contents": "Hi there, welcome to my website. You can reach me by email here: <a href=mailto:v@ug.hn>v@ug.hn</a><br><br>For the past two decades I've been completely obsessed with the universe arising from the intersection of TECHNOLOGY & STARTUPS. In 2014 I incorporated as VONALYTICS and continued this journey exploring this fascinating nexus of network effects, with a specific focus on DATA."
+	 "contents": "Hi there, welcome to my website. You can reach me by email here: <a href=mailto:v@ug.hn>v@ug.hn</a><br><br>For the past two decades I've been completely obsessed with the universe arising from the intersection of <span>TECHNOLOGY & STARTUPS</span>. In 2014 I incorporated as VONALYTICS and continued this journey exploring this fascinating nexus of network effects, with a specific focus on DATA."
       },
       {
                      "name": "source code",
@@ -38,7 +38,7 @@
                "name": "DEEPLY CONNECTED",
                "type": "exec",
                "contents": "https://github.com/vdimarco/open-data-linker",
-               "description": "An experiment involving linked data & semantic web annotations (hypothes.is)"
+               "description": "hypothes.is like experiment involving annotations, linked data & the semantic web"
             }
          ]
       },
