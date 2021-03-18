@@ -5,7 +5,7 @@
       {
          "name": "WELCOME",
 	 "type": "text",
-	 "contents": "Hi there, welcome to my website. You can reach me by email here: <a href=mailto:v@ug.hn>v@ug.hn</a><br><br>For the past two decades I've been completely obsessed with the universe arising from the intersection of <a class="exec">TECHNOLOGY & STARTUPS</a>. In 2014 I incorporated as VONALYTICS and continued this journey exploring this fascinating nexus of network effects, laser focused on <a class="exec">DATA</a>."
+	 "contents": "Hi there, welcome to my website. You can reach me by email here: <a href=mailto:v@ug.hn>v@ug.hn</a><br><br>For the past two decades I've been completely obsessed with the universe arising from the intersection of <a style='exec'>TECHNOLOGY & STARTUPS</a>. In 2014 I incorporated as VONALYTICS and continued this journey exploring this fascinating nexus of network effects, laser focused on <a class='exec'>DATA</a>."
       },
       {
                      "name": "source code",
