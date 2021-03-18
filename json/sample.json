@@ -5,7 +5,7 @@
       {
          "name": "WELCOME",
 	 "type": "text",
-	 "contents": "Hi there, welcome to my website. You can reach me by email here: <a href=mailto:v@ug.hn>v@ug.hn</a><br><br>In 2014 I started VONALYTICS INC. Since then I've explored the wonderful world of Tech, Data & AI from many angles.<br><br>If you get stuck browsing this website, type 'help' <br>"
+	 "contents": "Hi there, welcome to my website. You can reach me by email here: <a href=mailto:v@ug.hn>v@ug.hn</a><br><br>In 2014 I incorporated as VONALYTICS. Since then I've explored the wonderful world of Tech, Data & AI from many angles.<br><br>If you get stuck browsing this website, type 'help' <br>"
       },
       {
                      "name": "source code",
@@ -21,27 +21,21 @@
                "name": "COINDERA",
                "type": "exec",
                "contents": "http://coindera.com",
-               "description": "Prediction Markets Gone Wild"
+               "description": "Prediction Markets gone wild"
             },
             {
                "name": "MTL DATA",
                "type": "exec",
                "contents": "http://mtldata.com",
-               "description": "Started with friends. Became the largest community of data practioners in Canada."
+               "description": "Started with friends. Became the largest community of data practioners in Canada"
             },           {
-               "name": "Montreal R User Group",
+               "name": "MONTREAL R USER GROUP",
                "type": "exec",
                "contents": "http://meetup.com/Montreal-R-User-Group/",
-               "description": "The petri dish for MTL DATA."
+               "description": "The petri dish for MTL DATA"
             },
             {
-               "name": "Montreal AI Facebook Group",
-               "type": "exec",
-               "contents": "https://www.facebook.com/groups/MontrealAI/",
-               "description": "The best place to stay up to date with the cutting edge of AI research."
-            },
-            {
-               "name": "Deeply Connected",
+               "name": "DEEPLY CONNECTED",
                "type": "exec",
                "contents": "https://github.com/vdimarco/open-data-linker",
                "description": "An experiment involving linked data & semantic web annotations (hypothes.is)"
@@ -57,6 +51,12 @@
                "type": "exec",
                "contents": "http://news.ycombinator.com",
                "description": "thoughtful discourse"
+            },
+            {
+               "name": "Montreal AI Facebook Group",
+               "type": "exec",
+               "contents": "https://www.facebook.com/groups/MontrealAI/",
+               "description": "Stay up to date with the cutting edge of AI research"
             }
          ]
       },
