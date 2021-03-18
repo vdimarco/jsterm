@@ -53,13 +53,13 @@
                "description": ""
             },
             {
-               "name": "NextAI",
+               "name": "NEXT AI",
                "type": "exec",
                "contents": "https://www.nextcanada.com/next-ai/",
                "description": ""
             },
             {
-               "name": "hn",
+               "name": "HN",
                "type": "exec",
                "contents": "http://news.ycombinator.com",
                "description": "thoughtful discourse"
